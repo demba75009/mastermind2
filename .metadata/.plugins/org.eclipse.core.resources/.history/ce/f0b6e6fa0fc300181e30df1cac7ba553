@@ -1,0 +1,10 @@
+package jeu;
+
+public class couloir  {
+
+	 
+	System.out.print("faite un choix:");
+	
+	 	
+
+}

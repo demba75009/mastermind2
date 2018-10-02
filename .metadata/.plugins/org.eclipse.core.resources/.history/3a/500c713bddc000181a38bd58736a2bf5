@@ -1,0 +1,19 @@
+package voiture;
+import java.util.Scanner;
+public class voiture {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+int i;
+int y = 0;
+System.out.print("veuillez entrez un nombre a quatre chiffre:");
+Scanner sc = new Scanner(System.in);
+int str = sc.nextInt();
+if(str == i)
+
+System.out.println("Vous avez saisi : " + str);
+else
+	System.out.println( + str "est incorrect " );
+
+	}
+}

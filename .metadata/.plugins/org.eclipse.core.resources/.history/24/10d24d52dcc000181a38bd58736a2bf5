@@ -1,0 +1,12 @@
+package voiture;
+
+public class voiture {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+int i;
+int y = 0;
+System.out.print("veuillez entrez un nombre a quatre chiffre");
+
+}
+}

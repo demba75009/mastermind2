@@ -1,0 +1,45 @@
+package tab;
+import java.util.Scanner;  
+public class tab {
+ 
+public static void main(String[] args)	{
+ Scanner scan = new Scanner(System.in);
+ 
+	System.out.println("Combien d'éléphants ?");
+	int nombreElephants = scan.nextInt();
+	String[] tNomElephants = new String [nombreElephants];
+	int []tAge = new int [nombreElephants];
+ 
+ 
+	int choix;
+	do
+	{		 
+ 
+	System.out.println(" MENU : ");
+	System.out.println("1 - Afficher les éléphants");
+	System.out.println("2 - Ajouter un éléphant");
+	System.out.println("3 - Quitter");
+	Scanner sScan = new Scanner(System.in);
+	choix=sScan.nextInt();
+ 
+	switch (choix)
+	{
+		case 1:	
+ 
+		for (int i = 0; i < nombreElephants; i++) 
+ 
+ { System.out.println ("Eléphant " + tNomElephants[i]+" est agé de "+ tAge[i]+" ans");	} 
+ 
+		break;
+		case 2: //Ajouter un éléphant dans la première case vide 
+		          //du tableau tElephants et son âge dans tAge 
+		break;
+ 
+		case 3: System.exit(0);
+		break;
+ 
+		default : System.exit(0);
+		break;
+			}}
+			while (choix!=3);
+		}}

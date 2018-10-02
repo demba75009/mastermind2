@@ -1,0 +1,75 @@
+import java.util.Scanner;
+public class Mastermind {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+   
+		int g[]= {4,2,6,8};
+		int tab [] = new int [4];
+		int count;
+		System.out.println ("-----Bienvenu dans mastermind------ :" );
+		System.out.println ("Veuillez entrer quatre chiffre :"  );
+		for ( count = 0 ; count < 4 ; count ++ ) {
+		
+		Scanner sc = new Scanner (System.in);
+		tab[count] = sc.nextInt();
+		}
+	if(tab[0] == g[0] && tab[1] == g[1] && tab[2] == g[2] && tab[3] == g[3])
+		System.out.println ("bravo!");
+
+
+else {
+	
+	
+	for(int y=8;y>0;y--) {
+		System.out.println ("\t");
+		if(tab[0] == g[0])
+			System.out.println ("O");
+		if(tab[0] == g[1] || tab[0] == g[2] || tab[0] == g[3])
+			System.out.println ("X");
+		if(tab[0] != g[0] && tab[0] != g[1] && tab[0] != g[2] && tab[0] != g[3])
+			System.out.println ("P");
+			
+		if(tab[1] == g[1])
+			System.out.println ("O");
+		if(tab[1] == g[0] || tab[1] == g[2] || tab[1] == g[3])
+			System.out.println ("X");
+		if(tab[1] != g[1] && tab[1] != g[0] && tab[1] != g[2] && tab[1] != g[3])
+			System.out.println ("P");
+		
+		if(tab[2] == g[2])
+			System.out.println ("O");
+		if(tab[2] == g[0] || tab[2] == g[1] || tab[2] == g[3])
+			System.out.println ("X");
+		if(tab[2] != g[2] && tab[2] != g[0] && tab[2] != g[1] && tab[2] != g[3])
+			System.out.println ("P");
+		
+		if(tab[3] == g[3])
+			System.out.println ("O");
+		if(tab[3] == g[0] || tab[3] == g[1] || tab[3] == g[2])
+			System.out.println ("X");
+		if(tab[3] != g[3] && tab[3] != g[0] && tab[3] != g[1] && tab[3] != g[2])
+			System.out.println ("P");
+		
+		System.out.println ("\nLegende: 0 = nombre Bien place. P = nombre incorrecte. X = nombre Mal placer");
+		
+	Scanner sc1 = new Scanner(System.in);
+	System.out.println(  " incorrect nombre de tentative: "  + y  );
+System.out.print("veuillez entrez un nombre a quatre chiffre:");
+for ( count = 0 ; count < 4 ; count ++ ) {
+Scanner sc = new Scanner (System.in);
+tab[count] = sc.nextInt();
+
+}
+if(tab[0] == g[0] && tab[1] == g[1] && tab[2] == g[2] && tab[3] == g[3]){
+	System.out.println ("bravo  vous avez trouvez le nombre");
+    return;
+
+}
+	}	
+  System.out.println("perdu! vous avez epuiser le nombre de tentatives");  
+  
+}
+
+	}
+}

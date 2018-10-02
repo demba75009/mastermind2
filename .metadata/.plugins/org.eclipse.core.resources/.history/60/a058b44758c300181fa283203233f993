@@ -1,0 +1,20 @@
+package tab;
+import java.util.Scanner;
+import java.util.*;
+
+
+public class tab {
+int [] tabEntiers;
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		for(int i = 0; i <100; i++) { 
+			tabEntiers[i] = i+1; 
+			}
+		System.out.println("\nListe du tableau:\n"); 
+		for(int i = 0; i <100; i++) 
+		System.out.println(i + ": " + tabEntiers[i]);
+
+		
+	}
+
+}

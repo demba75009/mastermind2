@@ -1,0 +1,21 @@
+package tab;
+import java.util.Scanner;
+import java.util.*;
+
+
+public class tab {
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int tailleDeLaBoucle = 10;
+		String[] listeStrings = new String[tailleDeLaBoucle];
+		for (int i = 0; i < tailleDeLaBoucle; i++) {
+			
+			Scanner sc1 = new Scanner(System.in);
+			System.out.print("veuillez entrez un nombre a quatre chiffre:");
+
+		   listeStrings[i] = "Element"+i;
+		}
+		
+	}
+
+}

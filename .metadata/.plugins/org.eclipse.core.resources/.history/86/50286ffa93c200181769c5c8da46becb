@@ -1,0 +1,32 @@
+package voiture;
+import java.util.Scanner;
+public class voiture {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+String i = "6658";
+System.out.print("veuillez entrez un nombre a quatre chiffre:");
+Scanner sc = new Scanner(System.in);
+String str = sc.nextString();
+if(str == i)
+
+System.out.println("bravo !! " );
+
+else {
+	
+	for(int y=8;y>0;y--) {
+		
+		
+	Scanner sc1 = new Scanner(System.in);
+	System.out.println(  " incorrect nombre de tentative: "  + y  );
+System.out.print("veuillez entrez un nombre a quatre chiffre:");
+	
+	int str2 = sc.nextInt();
+	Scanner sc2 = new Scanner(System.in);
+	}	
+  System.out.println("perdu! vous avez epuiser le nombre de tentatives");  
+}
+
+	}
+}

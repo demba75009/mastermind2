@@ -1,0 +1,21 @@
+package voiture;
+import java.util.Scanner;
+import java.util.*;
+public class voiture {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+String[] i = {"1","6","6","8"};
+for(int j = 0; j < 4; j++)
+{  
+	System.out.print("veuillez entrez le chiffre"+j );
+	Scanner sc = new Scanner(System.in);
+	String str = sc.nextLine();
+	
+}
+
+
+
+	}
+}

@@ -1,0 +1,26 @@
+package tab;
+import java.util.Scanner;  
+import java.util.* ;
+
+public class tab {
+ 
+
+	public static void main ( String [] args ) {
+
+	int tab [] = new int [4];
+	int count;
+
+	System.out.println ("----- Début du programme. -----");
+	for ( count = 0 ; count < 4 ; count ++ ) {
+	System.out.println ("Veuillez entrer un nombre :" );
+	Scanner sc = new Scanner (System.in);
+	tab[count] = sc.nextInt();
+	}
+
+	System.out.println ("Le tableau contient les éléments suivants : "+ tab[0]);
+	
+	} 
+
+
+	}	
+	
