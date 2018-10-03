@@ -11,19 +11,20 @@ public class mastermind2 {
 			int i = 1;
 			
 		  System.out.println ("-----Bienvenu dans mastermind------ :" );
-			System.out.println ("code: " +g[0] +g[1] +g[2] +g[3]  );
+		  	
+		 
 			for ( count = 0 ; count < 4 ; count ++ ) {
-				System.out.println ("Veuillez entrez le  "+i+" chiffre du code :"  );
+				System.out.println ("\nVeuillez entrez le  "+i+" chiffre du code :"  );
 
 			Scanner sc = new Scanner (System.in);
 			tab[count] = sc.nextInt();
 			i++;
 	    
 	    }
-
+		  
 	if(tab[0] == g[0] && tab[1] == g[1] && tab[2] == g[2] && tab[3] == g[3])
 
-	System.out.println ("bravo !");
+	System.out.println ("bravo ! Vous avez trouvez le bon code");
 
 		
 
@@ -75,7 +76,7 @@ public class mastermind2 {
 	}
 	if(tab[0] == g[0] && tab[1] == g[1] && tab[2] == g[2] && tab[3] == g[3]){
 
-		System.out.println("");  
+		System.out.println ("bravo ! Vous avez trouvez le bon code");
 	return;
 
 	}
@@ -85,12 +86,5 @@ public class mastermind2 {
 	}
 	}
 	}
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-   
-		 
-			  
-			 
-
-	}
+	
 }
