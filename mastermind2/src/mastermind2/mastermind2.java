@@ -74,7 +74,7 @@ public class mastermind2 {
 	if(tab[3] != g[3] && tab[3] != g[0] && tab[3] != g[1] && tab[3] != g[2])
 		System.out.println ("chiffre 4 :\t\t\tX");
 
-	System.out.println ("\t\t\t\t\t\tLegende: 0 = chiffre Bien place. X = chiffre incorrecte. P = chiffre Mal placé/chiffre placé a plusieurs endroits");
+	System.out.println ("\t\t\t\t\t\tLegende: O = chiffre Bien place. X = chiffre incorrecte. P = chiffre Mal placé/chiffre placé a plusieurs endroits");
 
 	Scanner sc1 = new Scanner(System.in);
 	System.out.println("\nincorrect nombre de tentative: "  + y  );
