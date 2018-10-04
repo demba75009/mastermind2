@@ -45,6 +45,7 @@ public class mastermind2 {
 
 	for(int y=8;y>0;y--) {
 		//on verife les chiffre du  code 1 par 1
+		
 	if(tab[0] == g[0])
 		System.out.println ("chiffre 1 : O");
 	if(tab[0] == g[1] || tab[0] == g[2] || tab[0] == g[3])
@@ -73,7 +74,7 @@ public class mastermind2 {
 	if(tab[3] != g[3] && tab[3] != g[0] && tab[3] != g[1] && tab[3] != g[2])
 		System.out.println ("chiffre 4 :\t\t\tX");
 
-	System.out.println ("\t\t\t\t\t\t\t\t\tLegende: 0 = nombre Bien place. X = nombre incorrecte. P = nombre Mal placé");
+	System.out.println ("\t\t\t\t\t\tLegende: 0 = chiffre Bien place. X = chiffre incorrecte. P = chiffre Mal placé/chiffre placé a plusieurs endroits");
 
 	Scanner sc1 = new Scanner(System.in);
 	System.out.println("\nincorrect nombre de tentative: "  + y  );
