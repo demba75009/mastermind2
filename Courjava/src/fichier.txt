@@ -1,0 +1,3 @@
+Navigateur : "Grincheux","Simplet","Atchoum","joyaux";
+
+Position: x :0,1,2,3 y: 41,85,58,75,357,55;
